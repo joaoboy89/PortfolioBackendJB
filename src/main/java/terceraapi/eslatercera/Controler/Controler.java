@@ -38,6 +38,12 @@ public class Controler {
     return persoServ.verPersonas();
     }
     
+    @GetMapping ("/mensaje")
+    public String mensajePrueba(){
+        String mensajePrueba = "esta app esta funcionando";
+    return mensajePrueba;
+    }
+    
     @DeleteMapping ("/borrar/{id}")
     public void borrarPersona (@PathVariable Long id){
     persoServ.borrarPersona(id);
