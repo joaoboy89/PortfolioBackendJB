@@ -1,0 +1,7 @@
+terceraapi\eslatercera\Model\Persona2.class
+terceraapi\eslatercera\service\PersonaService.class
+terceraapi\eslatercera\EslaterceraApplication.class
+terceraapi\eslatercera\repository\PersonaRepository.class
+terceraapi\eslatercera\Model\Persona.class
+terceraapi\eslatercera\service\IPersonaService.class
+terceraapi\eslatercera\Controler\Controler.class
