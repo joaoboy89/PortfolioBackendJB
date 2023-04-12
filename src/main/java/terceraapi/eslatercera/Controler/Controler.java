@@ -6,6 +6,7 @@ package terceraapi.eslatercera.Controler;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -39,9 +40,9 @@ public class Controler {
     }
     
     @GetMapping ("/mensaje")
-    public String mensajePrueba(){
-        String mensajePrueba = "esta app esta funcionando";
-    return mensajePrueba;
+    public ResponseEntity <String> mensajePrueba(){
+        
+    return ResponseEntity.ok("esta funcionando la app");
     }
     
     @DeleteMapping ("/borrar/{id}")
