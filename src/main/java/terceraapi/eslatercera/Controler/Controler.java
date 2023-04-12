@@ -41,7 +41,6 @@ public class Controler {
     
     @GetMapping ("/mensaje")
     public ResponseEntity <String> mensajePrueba(){
-        
     return ResponseEntity.ok("esta funcionando la app");
     }
     

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: terceraapi.eslatercera.EslaterceraApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.643 s - in terceraapi.eslatercera.EslaterceraApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.521 s - in terceraapi.eslatercera.EslaterceraApplicationTests
