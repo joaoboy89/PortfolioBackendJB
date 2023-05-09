@@ -21,14 +21,31 @@ public class Persona2 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String name;
-    private String lastname;
+    private String usuario;
+    private String password;
+    private String email;
     
-    public Persona2 (Long id, String name, String lastname){
+    public Persona2() {}
+
+    
+    public Persona2 (Long id, String usuario, String password, String email){
         
         this.id = id;
-        this.name = name;
-        this.lastname = lastname;
+        this.usuario = usuario;
+        this.password = password;
+        this.email = email;
     };
     
+    
+        public String getPassword() {
+        return password;
+    }
+
+        public void setPassword(String password) {
+        this.password = password;
+    }
+    
+    
+    
 }
+

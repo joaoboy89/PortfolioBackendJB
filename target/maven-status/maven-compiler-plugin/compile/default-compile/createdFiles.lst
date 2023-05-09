@@ -1,6 +1,12 @@
 terceraapi\eslatercera\Model\Persona2.class
 terceraapi\eslatercera\service\PersonaService.class
+terceraapi\eslatercera\Controler\LoginControler.class
+terceraapi\eslatercera\Controler\RegisterController$ApiResponse.class
+terceraapi\eslatercera\Controler\RegisterController.class
+terceraapi\eslatercera\Controler\LoginControler$LoginRequest.class
+terceraapi\eslatercera\repository\UserRepository.class
 terceraapi\eslatercera\EslaterceraApplication.class
+terceraapi\eslatercera\Controler\LoginControler$ApiResponse.class
 terceraapi\eslatercera\repository\PersonaRepository.class
 terceraapi\eslatercera\Model\Persona.class
 terceraapi\eslatercera\service\IPersonaService.class

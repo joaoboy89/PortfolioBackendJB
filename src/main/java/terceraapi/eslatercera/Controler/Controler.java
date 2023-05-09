@@ -28,9 +28,9 @@ public class Controler {
     private IPersonaService persoServ;
     
     @PostMapping ("/crear/persona")
-    public void agregarPersona(@RequestBody Persona pers){
+    public String agregarPersona(@RequestBody Persona pers){
      persoServ.crearPersona(pers);
-     
+     return "la persona fue creda correctamente";
     }
     
     @GetMapping ("/ver/persona")
