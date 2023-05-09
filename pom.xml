@@ -75,8 +75,8 @@
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
 						</exclude>
-					</excludes>
-				</configuration>
+					</excludes>                                     
+                                </configuration>
 			</plugin>
 		</plugins>
 	</build>
